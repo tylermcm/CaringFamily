@@ -311,7 +311,7 @@ svg {
 .hero-visual {
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   justify-self: end;
   padding-bottom: 24px;
 }
@@ -335,8 +335,11 @@ svg {
 }
 .image-caption {
   position: absolute;
-  bottom: 66px;
-  left: 29px;
+  bottom: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100% - 40px);
   color: #fff;
   font-size: 12px;
   letter-spacing: 0.7px;
@@ -1134,10 +1137,10 @@ svg {
     font-size: 18px;
   }
   .image-caption {
-    left: 20px;
+    left: 50%;
     bottom: 65px;
     font-size: 10px;
-    max-width: none;
+    max-width: calc(100% - 40px);
     letter-spacing: 0;
   }
   .note-star {
