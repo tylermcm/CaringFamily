@@ -311,7 +311,7 @@ svg {
 .hero-visual {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
   justify-self: end;
   padding-bottom: 24px;
 }
