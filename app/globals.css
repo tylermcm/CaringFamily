@@ -138,6 +138,11 @@ svg {
   line-height: 1.05;
   white-space: nowrap;
 }
+.brand-logo {
+  display: block;
+  width: 225px;
+  height: auto;
+}
 .brand small {
   display: block;
   font-family: var(--font-body), sans-serif;
@@ -456,11 +461,9 @@ svg {
     background 0.2s,
     transform 0.2s;
 }
-.service-card:nth-child(2) {
-  background: #efeee6;
-}
+.service-card:nth-child(2),
 .service-card:nth-child(3) {
-  background: #eaf0ed;
+  background: #edf0e8;
 }
 .service-card:hover {
   transform: translateY(-5px);
@@ -1064,6 +1067,9 @@ svg {
   }
   .brand {
     font-size: 22px;
+  }
+  .brand-logo {
+    width: 190px;
   }
   .menu-button {
     display: block;
