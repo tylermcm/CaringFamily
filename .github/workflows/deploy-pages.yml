@@ -34,13 +34,15 @@ jobs:
         env:
           GITHUB_ACTIONS: false
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
-        run: npm run build
+        run: |
+          npm run build
+          node scripts/prepare-pages.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/client
+          path: dist/pages
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

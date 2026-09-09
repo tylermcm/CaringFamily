@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '../components/site-link';
 import { ArrowUpRight, ArrowRight, HeartHandshake, Clock3, MessageCircle, MapPin, Phone, Sparkles, ShieldCheck, Smile } from 'lucide-react';
 import { sitePath } from '../lib/site-path';
 export default function Home() {

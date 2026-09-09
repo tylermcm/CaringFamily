@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { DM_Sans, DM_Serif_Display } from 'next/font/google';
-import Link from 'next/link';
+import Link from '../components/site-link';
 import { ArrowUpRight, Phone, MapPin } from 'lucide-react';
 import Header from './site-header';
 import './globals.css';

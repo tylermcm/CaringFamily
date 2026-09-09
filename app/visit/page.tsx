@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '../../components/site-link';
 import { ArrowUpRight, Phone } from 'lucide-react';
 import { sitePath } from '../../lib/site-path';
 export const metadata={title:'Visit Us in Arvada'};
